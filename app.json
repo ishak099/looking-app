@@ -32,6 +32,12 @@
     "plugins": [
       "expo-build-properties",
       "expo-notifications"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ffdfa6f9-9097-49d4-9369-14bec1e01378"
+      }
+    },
+    "owner": "ishak099"
   }
 }

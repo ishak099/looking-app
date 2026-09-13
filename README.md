@@ -19,6 +19,24 @@ web is not a shipping target — verify real behavior (pacing, reduced motion,
 and especially notifications) on a physical iOS/Android device. Simulators
 can't reproduce killed-app notification delivery.
 
+## Build & install on a phone
+
+Linked to the `@ishak099/looking-app` project on expo.dev (`app.json`'s
+`extra.eas.projectId`). To get a real installable build on an Android phone:
+
+```bash
+npx eas-cli build --platform android --profile preview
+```
+
+This produces a standalone APK (no Expo Go needed) and prints an
+expo.dev link + QR code — open it on the phone (allow installs from
+unknown sources) to install directly. A fresh build takes roughly the ~5-10
+minutes queue + build time; check status any time with
+`npx eas-cli build:list --limit 5`.
+
+iOS is not set up — it needs an Apple Developer Program membership ($99/yr)
+before any build can install on a physical device outside Expo Go.
+
 ## What's implemented
 
 - All four screens (Opening, Looking, After/resting, Settings), matching the
@@ -83,11 +101,12 @@ chase.
 1. **App icon / splash / Android notification icon.** Placeholder Expo
    template assets are still in `assets/`. Needs real 1024x1024 icon art
    before a store submission.
-2. **EAS project.** `eas.json` has build profiles (`development`, `preview`,
-   `production`) but no project is linked yet. Run `eas init` and
-   `eas build:configure` once you have an Expo account, then
-   `eas build --platform android --profile preview` /
-   `eas build --platform ios --profile preview` to get installable builds.
+2. **EAS project — Android done, iOS not started.** Linked to
+   `@ishak099/looking-app` on expo.dev; `eas build --platform android
+   --profile preview` produces an installable APK (`eas.json`'s `preview`
+   profile). iOS needs an Apple Developer Program membership ($99/yr) plus
+   `eas device:create` to register a test device before a build can install
+   outside Expo Go — not set up yet.
 3. **Two-week dogfood + TestFlight/internal track**, per the spec's build
    order — pacing that feels right on a laptop screen often doesn't on a
    phone in your hand. At 714 pointers, this is also the first real chance
