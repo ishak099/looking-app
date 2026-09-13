@@ -26,6 +26,11 @@ can't reproduce killed-app notification delivery.
 - The exact pacing formula from the prototype (`src/lib/pacing.ts`), including
   the 0.85x reduced-motion multiplier and per-line `hold` overrides.
 - Tap-to-advance that never skips a line, no progress indicator, no chrome.
+- A quiet pause after every pointer (`src/screens/AfterScreen.tsx`): the
+  screen holds blank for ~5s before "Look at another" fades in, same
+  pacing philosophy as the lines themselves, applied to the gap between
+  pointers. No countdown, no message — just friction against turning the
+  app into a scrolling feed instead of one thing to sit with.
 - On-device only: no backend, no accounts, no analytics. AsyncStorage holds
   exactly what the spec allows — notification settings, the shuffle-walk
   queue position, and a small counter used only to time the permission ask
