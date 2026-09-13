@@ -26,6 +26,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "experiments": {
+      "baseUrl": "/looking-app"
+    },
     "plugins": [
       "expo-build-properties",
       "expo-notifications"

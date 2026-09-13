@@ -4,6 +4,9 @@ A mobile self-inquiry app. One short pointer at a time, revealed line by line,
 at unpredictable moments. Built with Expo + React Native + TypeScript per
 `looking-app-spec.md`.
 
+**Web preview (not the shipping target — see below):**
+https://ishak099.github.io/looking-app/
+
 ## Run it
 
 ```bash
@@ -37,6 +40,15 @@ can't reproduce killed-app notification delivery.
 - Two independent shuffle-walk queues (in-app vs. notification-scheduled) so
   neither can show the same pointer twice in a row, without the app tracking
   or surfacing any view history.
+
+## Web hosting
+
+`.github/workflows/deploy-web.yml` runs `expo export --platform web` and
+publishes `dist/` to GitHub Pages on every push to `master`. This is a
+**preview for looking at the UI in a browser** — notifications, and true
+device pacing feel, only exist on iOS/Android. `app.json`'s
+`expo.experiments.baseUrl` is hardcoded to `/looking-app` to match this
+repo's Pages path; update it if the repo is ever renamed or moved.
 
 ## Known gaps before this should ship to a store
 
