@@ -125,12 +125,14 @@ function buildTriggerDates(from: Date, count: number, settings: Settings): Date[
   return dates;
 }
 
-/** Cancels every pending local notification and clears the notification queue
- * cursor. Call when the user turns notifications off or edits cadence. */
+/** Cancels every pending local notification and clears the scheduling
+ * horizon. Call when the user turns notifications off or edits cadence.
+ * Deliberately does NOT touch the shared pointer queue (storage.ts) — that
+ * queue also tracks in-app viewing progress, and a settings change
+ * shouldn't make already-seen pointers eligible to repeat sooner. */
 export async function cancelAllAndReset(): Promise<void> {
   if (!NOTIFICATIONS_SUPPORTED) return;
   await Notifications.cancelAllScheduledNotificationsAsync();
-  await storage.setNotifQueue({ order: [], cursor: 0, lastId: null });
   await storage.clearLastScheduledUntil();
 }
 
@@ -155,7 +157,7 @@ export async function topUpScheduledNotifications(): Promise<void> {
   const latestTrigger = storedUntil && storedUntil > now ? storedUntil : now;
 
   const dates = buildTriggerDates(latestTrigger, deficit, settings);
-  const queueState = await storage.getNotifQueue();
+  const queueState = await storage.getPointerQueue();
   const { ids, next } = drawBatch(queueState, deficit);
 
   for (let i = 0; i < deficit; i++) {
@@ -175,7 +177,7 @@ export async function topUpScheduledNotifications(): Promise<void> {
     });
   }
 
-  await storage.setNotifQueue(next);
+  await storage.setPointerQueue(next);
   await storage.setLastScheduledUntil(dates[dates.length - 1]);
 }
 

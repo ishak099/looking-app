@@ -80,9 +80,9 @@ export default function App() {
   }, []);
 
   const goLooking = useCallback(async () => {
-    const queueState = await storage.getInAppQueue();
+    const queueState = await storage.getPointerQueue();
     const { id, next } = drawNext(queueState);
-    await storage.setInAppQueue(next);
+    await storage.setPointerQueue(next);
     const p = getPointer(id);
     if (!p) return;
     setPointer(p);

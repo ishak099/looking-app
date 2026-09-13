@@ -37,9 +37,11 @@ can't reproduce killed-app notification delivery.
   request. Tapping a notification opens straight into that pointer via
   `getLastNotificationResponseAsync` (cold start) and
   `addNotificationResponseReceivedListener` (warm).
-- Two independent shuffle-walk queues (in-app vs. notification-scheduled) so
-  neither can show the same pointer twice in a row, without the app tracking
-  or surfacing any view history.
+- One shared shuffle-walk queue (`storage.getPointerQueue`/`setPointerQueue`)
+  for every draw — in-app taps and scheduled notifications alike — so no
+  pointer repeats until all 514 have been shown once, regardless of which
+  surface showed them, without the app tracking or surfacing any view
+  history.
 
 ## Web hosting
 

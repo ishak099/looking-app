@@ -8,8 +8,7 @@ const KEYS = {
   settings: 'looking.settings',
   hasRequestedNotificationPermission: 'looking.hasRequestedNotificationPermission',
   pointersCompletedBeforeAsk: 'looking.pointersCompletedBeforeAsk',
-  inAppQueue: 'looking.inAppQueue',
-  notifQueue: 'looking.notifQueue',
+  pointerQueue: 'looking.pointerQueue',
   lastScheduledUntil: 'looking.lastScheduledUntil',
 } as const;
 
@@ -66,18 +65,14 @@ export const storage = {
     return next;
   },
 
-  async getInAppQueue(): Promise<PointerQueueState | null> {
-    return getJSON<PointerQueueState>(KEYS.inAppQueue);
+  /** One shared shuffle-walk for every draw — in-app taps and scheduled
+   * notifications alike — so nothing repeats until all pointers have been
+   * shown once, regardless of which surface showed them. */
+  async getPointerQueue(): Promise<PointerQueueState | null> {
+    return getJSON<PointerQueueState>(KEYS.pointerQueue);
   },
-  async setInAppQueue(state: PointerQueueState): Promise<void> {
-    await setJSON(KEYS.inAppQueue, state);
-  },
-
-  async getNotifQueue(): Promise<PointerQueueState | null> {
-    return getJSON<PointerQueueState>(KEYS.notifQueue);
-  },
-  async setNotifQueue(state: PointerQueueState): Promise<void> {
-    await setJSON(KEYS.notifQueue, state);
+  async setPointerQueue(state: PointerQueueState): Promise<void> {
+    await setJSON(KEYS.pointerQueue, state);
   },
 
   async getLastScheduledUntil(): Promise<Date | null> {
