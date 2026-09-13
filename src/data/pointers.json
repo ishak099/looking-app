@@ -1,0 +1,132 @@
+{
+  "pointers": [
+    {
+      "id": "sound-01",
+      "lines": [
+        { "t": "Stop." },
+        { "t": "A sound." },
+        { "t": "You didn't decide to hear it." },
+        { "t": "It arrived already heard.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "breath-01",
+      "lines": [
+        { "t": "Breathe in." },
+        { "t": "That air was outside you a second ago." },
+        { "t": "Now it isn't." },
+        { "t": "Where did it cross over?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "food-01",
+      "lines": [
+        { "t": "Something you ate last week is your hand now." },
+        { "t": "It was an apple. Or rice. Or a fish." },
+        { "t": "When exactly did it become you?", "hold": 2.6 },
+        { "t": "Don't answer. Look for the moment." }
+      ]
+    },
+    {
+      "id": "thought-01",
+      "lines": [
+        { "t": "Wait here for the next thought." },
+        { "t": "It'll come." },
+        { "t": "Watch where it comes from.", "hold": 1.8 },
+        { "t": "You can't see where it comes from." },
+        { "t": "Notice you also didn't make it.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "story-01",
+      "lines": [
+        { "t": "Something went wrong today." },
+        { "t": "It happened once." },
+        { "t": "The telling has happened forty times." },
+        { "t": "Which one is hurting you?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "anger-01",
+      "lines": [
+        { "t": "Someone cuts in front of you." },
+        { "t": "Heat." },
+        { "t": "It came before the thought about it." },
+        { "t": "Watch the thought arrive second.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "itch-01",
+      "lines": [
+        { "t": "There's an itch somewhere. Find it." },
+        { "t": "Now — is the itch being felt," },
+        { "t": "or are you feeling it?", "hold": 2.4 },
+        { "t": "Look. Don't decide." }
+      ]
+    },
+    {
+      "id": "waiting-01",
+      "lines": [
+        { "t": "You're waiting for a reply." },
+        { "t": "Notice the checking." },
+        { "t": "Notice the small drop each time nothing is there." },
+        { "t": "That drop is known.", "hold": 1.6 },
+        { "t": "By what?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "hands-01",
+      "lines": [
+        { "t": "Look at your hands." },
+        { "t": "They were smaller once." },
+        { "t": "Completely different material." },
+        { "t": "Something didn't change.", "hold": 2.2 },
+        { "t": "What?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "anger-02",
+      "lines": [
+        { "t": "Anger comes." },
+        { "t": "You didn't send for it." },
+        { "t": "Anger is known.", "hold": 1.8 },
+        { "t": "Is the knowing angry?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "nothing-01",
+      "lines": [
+        { "t": "Nothing is happening." },
+        { "t": "Notice the pressure to make something happen." },
+        { "t": "That pressure is known too.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "dog-01",
+      "lines": [
+        { "t": "A dog flinches before it thinks about flinching." },
+        { "t": "So did you, this morning." },
+        { "t": "Same flinch. Older than both of you.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "lightness-01",
+      "lines": [
+        { "t": "Something good happened. Lightness." },
+        { "t": "It will pass. You know it will pass." },
+        { "t": "Watch it being known —" },
+        { "t": "the same way the heavy things are known.", "hold": 1.8 },
+        { "t": "Same room. No difference.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "looking-01",
+      "lines": [
+        { "t": "You've been looking." },
+        { "t": "Who has been looking?", "hold": 2.8 },
+        { "t": "Don't name it." },
+        { "t": "Stay there a moment longer than is comfortable.", "hold": 3 }
+      ]
+    }
+  ]
+}

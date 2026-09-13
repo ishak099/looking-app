@@ -1,17 +1,22 @@
 {
   "expo": {
-    "name": "looking-app",
+    "name": "Looking",
     "slug": "looking-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#1E2A2C",
+    "primaryColor": "#1E2A2C",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.looking.app",
+      "backgroundColor": "#1E2A2C"
     },
     "android": {
+      "package": "com.looking.app",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#1E2A2C",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -20,6 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-build-properties",
+      "expo-notifications"
+    ]
   }
 }
