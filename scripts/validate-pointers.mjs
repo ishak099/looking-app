@@ -34,7 +34,10 @@ for (const p of data.pointers) {
   const full = p.lines.map((l) => l.t).join(' ');
   const lower = full.toLowerCase();
   for (const word of BANNED) {
-    if (lower.includes(word)) {
+    // Word-boundary match so e.g. "ego" doesn't flag "negotiated".
+    // Multi-word phrases (e.g. "the witness") have no boundary concern.
+    const pattern = /^[a-z]+$/.test(word) ? `\\b${word}\\b` : word;
+    if (new RegExp(pattern).test(lower)) {
       console.error(`${p.id}: banned word "${word}" in: ${full}`);
       errors++;
     }
