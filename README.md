@@ -50,28 +50,43 @@ device pacing feel, only exist on iOS/Android. `app.json`'s
 `expo.experiments.baseUrl` is hardcoded to `/looking-app` to match this
 repo's Pages path; update it if the repo is ever renamed or moved.
 
+## Content
+
+`src/data/pointers.json` holds 514 pointers: the 14 seed pointers from the
+spec, verbatim, plus 500 more written to the same voice rules (spec §9) —
+verbs not nouns, no banned vocabulary (awareness, consciousness, presence,
+the witness, energy, journey, and the rest of the list), concrete triggers
+drawn from the body, senses, emotion, waiting, memory, work, relationships,
+and boundary/connectedness, questions left open, no promises. Spanning 76
+distinct themes so the shuffle-walk queue (`src/lib/queue.ts`) has real
+variety before it repeats.
+
+`scripts/validate-pointers.mjs` (`node scripts/validate-pointers.mjs`) checks
+every pointer for banned vocabulary, duplicate ids, duplicate opening lines,
+line-count bounds (3-6), and sane `hold` values. Run it after editing
+`pointers.json` — it's the mechanical half of the voice-rule check; the
+other half (does it actually read like a pointer, not an assertion) still
+needs a human pass. Some structural repetition across pointers is by design
+in this genre (a handful of closing questions like "By what?" recur, the
+same way they do in the original 14) — that's not a bug the validator should
+chase.
+
 ## Known gaps before this should ship to a store
 
-1. **Content.** The spec requires 60-80 pointers minimum for App Review's
-   "minimum functionality" bar; this build ships the 14 seed pointers from
-   the spec (`src/data/pointers.json`), verbatim. Writing the remaining ~50
-   is explicitly called out in the spec as the largest task in the project
-   and one that should happen "over weeks rather than in one sitting" — it
-   wasn't attempted here rather than filling the gap with rushed pointers
-   that break the voice rules in spec §9. Add more by appending objects to
-   `pointers.json`; no code changes needed.
-2. **App icon / splash / Android notification icon.** Placeholder Expo
+1. **App icon / splash / Android notification icon.** Placeholder Expo
    template assets are still in `assets/`. Needs real 1024x1024 icon art
    before a store submission.
-3. **EAS project.** `eas.json` has build profiles (`development`, `preview`,
+2. **EAS project.** `eas.json` has build profiles (`development`, `preview`,
    `production`) but no project is linked yet. Run `eas init` and
    `eas build:configure` once you have an Expo account, then
    `eas build --platform android --profile preview` /
    `eas build --platform ios --profile preview` to get installable builds.
-4. **Two-week dogfood + TestFlight/internal track**, per the spec's build
+3. **Two-week dogfood + TestFlight/internal track**, per the spec's build
    order — pacing that feels right on a laptop screen often doesn't on a
-   phone in your hand.
-5. **Pricing** (one-time unlock / IAP pack) isn't wired up — no payment
+   phone in your hand. At 514 pointers, this is also the first real chance
+   to catch any that read flat or samey once they show up days apart instead
+   of back to back.
+4. **Pricing** (one-time unlock / IAP pack) isn't wired up — no payment
    integration exists in this build.
 
 ## Project structure
@@ -81,7 +96,7 @@ App.tsx                    root state machine (start/looking/resting/settings)
 src/
   theme.ts                 colors, serif font, clamp()-style font sizing
   types.ts
-  data/pointers.json        seed pointer content (14 of 60-80 target)
+  data/pointers.json        514 pointers (14 seed + 500 new)
   lib/
     pacing.ts               ported reveal-timing formula
     storage.ts              AsyncStorage wrapper (the entire on-device state)
@@ -94,4 +109,5 @@ src/
     LookingScreen.tsx
     AfterScreen.tsx          also used as the post-first-launch resting state
     SettingsScreen.tsx
+scripts/validate-pointers.mjs  voice-rule + structural checks for pointers.json
 ```
