@@ -62,7 +62,7 @@ before any build can install on a physical device outside Expo Go.
   `addNotificationResponseReceivedListener` (warm).
 - One shared shuffle-walk queue (`storage.getPointerQueue`/`setPointerQueue`)
   for every draw — in-app taps and scheduled notifications alike — so no
-  pointer repeats until all 714 have been shown once, regardless of which
+  pointer repeats until all 934 have been shown once, regardless of which
   surface showed them, without the app tracking or surfacing any view
   history.
 
@@ -77,24 +77,26 @@ repo's Pages path; update it if the repo is ever renamed or moved.
 
 ## Content
 
-`src/data/pointers.json` holds 714 pointers: the 14 seed pointers from the
-spec, verbatim, plus 700 more written to the same voice rules (spec §9) —
+`src/data/pointers.json` holds 934 pointers: the 14 seed pointers from the
+spec, verbatim, plus 920 more written to the same voice rules (spec §9) —
 verbs not nouns, no banned vocabulary (awareness, consciousness, presence,
 the witness, energy, journey, and the rest of the list), concrete triggers
 drawn from the body, senses, emotion, waiting, memory, work, relationships,
 boundary/connectedness, and the practice itself, questions left open, no
-promises. Spanning 96 distinct themes so the shuffle-walk queue
+promises. Spanning 118 distinct themes so the shuffle-walk queue
 (`src/lib/queue.ts`) has real variety before it repeats.
 
 `scripts/validate-pointers.mjs` (`node scripts/validate-pointers.mjs`) checks
-every pointer for banned vocabulary, duplicate ids, duplicate opening lines,
-line-count bounds (3-6), and sane `hold` values. Run it after editing
+every pointer for banned vocabulary (word-boundary matched, so "negotiated"
+doesn't trip on the banned word "ego"), duplicate ids, duplicate opening
+lines, line-count bounds (3-6), and sane `hold` values. Run it after editing
 `pointers.json` — it's the mechanical half of the voice-rule check; the
-other half (does it actually read like a pointer, not an assertion) still
-needs a human pass. Some structural repetition across pointers is by design
-in this genre (a handful of closing questions like "By what?" recur, the
-same way they do in the original 14) — that's not a bug the validator should
-chase.
+other half (does it actually read like a pointer, not an assertion, and
+does it accidentally repeat an existing pointer's scenario under a new id)
+still needs a human pass. Some structural repetition across pointers is by
+design in this genre (a handful of closing questions like "By what?" recur,
+the same way they do in the original 14) — that's not a bug the validator
+should chase.
 
 ## Known gaps before this should ship to a store
 
@@ -109,7 +111,7 @@ chase.
    outside Expo Go — not set up yet.
 3. **Two-week dogfood + TestFlight/internal track**, per the spec's build
    order — pacing that feels right on a laptop screen often doesn't on a
-   phone in your hand. At 714 pointers, this is also the first real chance
+   phone in your hand. At 934 pointers, this is also the first real chance
    to catch any that read flat or samey once they show up days apart instead
    of back to back.
 4. **Pricing** (one-time unlock / IAP pack) isn't wired up — no payment
@@ -122,7 +124,7 @@ App.tsx                    root state machine (start/looking/resting/settings)
 src/
   theme.ts                 colors, serif font, clamp()-style font sizing
   types.ts
-  data/pointers.json        714 pointers (14 seed + 700 new)
+  data/pointers.json        934 pointers (14 seed + 920 new)
   lib/
     pacing.ts               ported reveal-timing formula
     storage.ts              AsyncStorage wrapper (the entire on-device state)

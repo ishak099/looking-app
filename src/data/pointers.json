@@ -5744,6 +5744,1766 @@
         { "t": "You forgive it instantly, without a second thought." },
         { "t": "Your own mistakes don't get the same speed.", "hold": 2.6 }
       ]
+    },
+    {
+      "id": "home-01",
+      "lines": [
+        { "t": "Back at your childhood home, as an adult." },
+        { "t": "The door handle feels smaller in your hand than it used to." },
+        { "t": "The handle didn't shrink.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "home-02",
+      "lines": [
+        { "t": "The first night in a new place." },
+        { "t": "It feels like camping, not living there." },
+        { "t": "When exactly does that change?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "home-03",
+      "lines": [
+        { "t": "One smell means \"home\" no matter which actual house you're in." },
+        { "t": "The house changed." },
+        { "t": "The meaning of the smell didn't.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "home-04",
+      "lines": [
+        { "t": "Back from a long trip, bags dropped by the door." },
+        { "t": "One long breath goes out, all at once." },
+        { "t": "It had been held the entire trip.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "home-05",
+      "lines": [
+        { "t": "A room that used to be yours, now storage, in your parents' house." },
+        { "t": "Something in you still reads it as yours for a second." },
+        { "t": "How long does a room stay yours after it isn't?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "home-06",
+      "lines": [
+        { "t": "You know exactly which stair creaks." },
+        { "t": "Nobody told you. You never measured it." },
+        { "t": "How is that known?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "home-07",
+      "lines": [
+        { "t": "A new place starts to feel like home on a specific, unremarkable day." },
+        { "t": "The day you can walk it in the dark without thinking." },
+        { "t": "Notice when that day was.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "home-08",
+      "lines": [
+        { "t": "The sound of your own front door." },
+        { "t": "Unmistakably different from every other door." },
+        { "t": "What makes a sound belong to a place?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "home-09",
+      "lines": [
+        { "t": "Packing up a home you're leaving for good." },
+        { "t": "Objects go back to being just objects, one box at a time." },
+        { "t": "What had been holding the meaning in until now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "home-10",
+      "lines": [
+        { "t": "A key on your ring for a lock you don't have anymore." },
+        { "t": "You still haven't thrown it away." },
+        { "t": "What is it actually unlocking now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "language-01",
+      "lines": [
+        { "t": "A word in another language with no direct translation." },
+        { "t": "The feeling it names existed before the word did." },
+        { "t": "Does a feeling need a word to be real?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "language-02",
+      "lines": [
+        { "t": "You think in one language." },
+        { "t": "One specific feeling only seems nameable in another." },
+        { "t": "Which language is closer to what's actually happening?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "language-03",
+      "lines": [
+        { "t": "A whole day speaking a second language." },
+        { "t": "A common word in your first language suddenly won't come." },
+        { "t": "Where did it go?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "language-04",
+      "lines": [
+        { "t": "A language you no longer speak fluently." },
+        { "t": "Around family, it returns, whole, uninvited." },
+        { "t": "Where was it kept in the meantime?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "language-05",
+      "lines": [
+        { "t": "A joke in another language." },
+        { "t": "You're laughing before you could have translated it." },
+        { "t": "What understood it, if not the words?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "language-06",
+      "lines": [
+        { "t": "Say a word out loud, again and again." },
+        { "t": "At some point it stops sounding like a real word at all." },
+        { "t": "What broke, the word or the hearing?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "language-07",
+      "lines": [
+        { "t": "Your accent shifts slightly around someone who speaks differently." },
+        { "t": "You didn't decide to do that." },
+        { "t": "Who did?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "language-08",
+      "lines": [
+        { "t": "A feeling that won't translate into any language you know." },
+        { "t": "It's still completely clear to you." },
+        { "t": "What is it made of, if not words?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "language-09",
+      "lines": [
+        { "t": "A baby says a first word." },
+        { "t": "The whole room reacts before the word could possibly mean anything yet." },
+        { "t": "What were they actually reacting to?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "language-10",
+      "lines": [
+        { "t": "A dream, in a language you don't speak while awake." },
+        { "t": "You understood it completely at the time." },
+        { "t": "Where did that understanding go by morning?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "driving-01",
+      "lines": [
+        { "t": "Merging onto a highway, checking three mirrors and a blind spot." },
+        { "t": "No memory afterward of deciding to check any of them." },
+        { "t": "They were checked anyway, correctly.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "driving-02",
+      "lines": [
+        { "t": "A light turns yellow." },
+        { "t": "The foot is already on the brake before any decision." },
+        { "t": "What decided?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "driving-03",
+      "lines": [
+        { "t": "A long solo drive, at night." },
+        { "t": "A specific quiet, different from quiet anywhere else." },
+        { "t": "What's different about it?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "driving-04",
+      "lines": [
+        { "t": "Singing loudly, alone in the car." },
+        { "t": "A red light, someone in the next car over." },
+        { "t": "The singing stops before you've decided to stop it.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "driving-05",
+      "lines": [
+        { "t": "Learning to drive, every motion was deliberate, counted, effortful." },
+        { "t": "Now none of it is." },
+        { "t": "Where did the effort go?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "driving-06",
+      "lines": [
+        { "t": "A near-miss on the road." },
+        { "t": "Your hands are still shaking blocks later." },
+        { "t": "The danger passed. The body hasn't caught up yet.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "driving-07",
+      "lines": [
+        { "t": "Driving with nowhere to actually be." },
+        { "t": "Just to think, or to stop thinking." },
+        { "t": "Which one is it, right now?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "driving-08",
+      "lines": [
+        { "t": "Parallel parking, perfectly, on the first try." },
+        { "t": "A small, unearned pride follows." },
+        { "t": "Nobody was watching. It happened anyway.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "driving-09",
+      "lines": [
+        { "t": "A long highway stretch, a rhythm sets in." },
+        { "t": "An exit passes, missed, without you noticing at the time." },
+        { "t": "Who was driving during that stretch?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "driving-10",
+      "lines": [
+        { "t": "Handing someone the keys, for the first time." },
+        { "t": "A specific trust, handed over with them." },
+        { "t": "Notice the moment it's actually let go.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "reading-01",
+      "lines": [
+        { "t": "So absorbed in a book, your name is said and doesn't land." },
+        { "t": "Someone has to say it twice." },
+        { "t": "Where were you, exactly, in that moment?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "reading-02",
+      "lines": [
+        { "t": "The same sentence, read a fourth time." },
+        { "t": "The words keep sliding off without landing." },
+        { "t": "What's actually stopping them?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "reading-03",
+      "lines": [
+        { "t": "You close a book." },
+        { "t": "A minute is needed before rejoining the actual room." },
+        { "t": "Where were you a minute ago?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "reading-04",
+      "lines": [
+        { "t": "A childhood book, reread as an adult." },
+        { "t": "Somehow a completely different book." },
+        { "t": "The words didn't change.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "reading-05",
+      "lines": [
+        { "t": "A page, dog-eared, from years ago." },
+        { "t": "Something in you changed reading it, right there." },
+        { "t": "Can you find what changed?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "reading-06",
+      "lines": [
+        { "t": "The last page of a book." },
+        { "t": "You read it slower than the rest, on purpose." },
+        { "t": "What are you actually trying to delay?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "reading-07",
+      "lines": [
+        { "t": "A character makes a decision." },
+        { "t": "Real anger arrives, at a person who doesn't exist." },
+        { "t": "Where does that anger actually go?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "reading-08",
+      "lines": [
+        { "t": "A book set down for months, picked back up." },
+        { "t": "Its whole world reassembles instantly, complete." },
+        { "t": "Where was it keeping itself?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "reading-09",
+      "lines": [
+        { "t": "Reading a book in your head, in a voice that isn't the author's." },
+        { "t": "You never chose it." },
+        { "t": "Whose voice is it, then?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "reading-10",
+      "lines": [
+        { "t": "A book ends." },
+        { "t": "You miss people who were never real." },
+        { "t": "What exactly is being missed?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "deadline-01",
+      "lines": [
+        { "t": "A deadline, weeks away. Nothing happens." },
+        { "t": "The same deadline, tomorrow. Everything happens." },
+        { "t": "The deadline didn't change.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "deadline-02",
+      "lines": [
+        { "t": "Work finished in the final hour." },
+        { "t": "The previous week produced almost none of it." },
+        { "t": "What was the week actually for?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "deadline-03",
+      "lines": [
+        { "t": "The morning after a deadline passes." },
+        { "t": "A specific dread arrives before the inbox is even open." },
+        { "t": "What's it expecting to find?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "deadline-04",
+      "lines": [
+        { "t": "Asking for an extension." },
+        { "t": "The relief of asking is bigger than the extra time granted." },
+        { "t": "What was actually being carried before that?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "deadline-05",
+      "lines": [
+        { "t": "A deadline, missed." },
+        { "t": "The world continues, exactly as it would have otherwise." },
+        { "t": "What was the fear actually about?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "deadline-06",
+      "lines": [
+        { "t": "Clarity about how to finish the work." },
+        { "t": "It never shows up until the very last minute." },
+        { "t": "Where is it hiding before then?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "deadline-07",
+      "lines": [
+        { "t": "You finish something early, for once." },
+        { "t": "You don't trust the feeling of having time left over." },
+        { "t": "What's suspicious about it?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "deadline-08",
+      "lines": [
+        { "t": "A group project, a countdown visible to everyone." },
+        { "t": "Nobody moves any faster for seeing it." },
+        { "t": "What was the countdown actually for?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "deadline-09",
+      "lines": [
+        { "t": "The version of the work you'd have made with double the time." },
+        { "t": "It only exists in your head." },
+        { "t": "Is it actually better, or just untested?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "deadline-10",
+      "lines": [
+        { "t": "You submit the work." },
+        { "t": "Relief floods in, bigger than how the work turned out deserves." },
+        { "t": "What was the relief actually about?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "gift-01",
+      "lines": [
+        { "t": "Choosing a gift for someone." },
+        { "t": "You learn what you actually think of them in the choosing." },
+        { "t": "What did you just learn?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "gift-02",
+      "lines": [
+        { "t": "A gift, wrapped badly." },
+        { "t": "It matters not at all." },
+        { "t": "What was the wrapping actually for, then?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "gift-03",
+      "lines": [
+        { "t": "A gift shows someone was paying closer attention than you knew." },
+        { "t": "Something in the chest shifts, quickly." },
+        { "t": "Before any words for it arrive.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "gift-04",
+      "lines": [
+        { "t": "Giving away something you loved." },
+        { "t": "An ache, mixed right in with the giving, not after it." },
+        { "t": "Both at once. No contradiction.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "gift-05",
+      "lines": [
+        { "t": "A regifted item, recognized instantly." },
+        { "t": "Nothing said." },
+        { "t": "What's being protected by the silence?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "gift-06",
+      "lines": [
+        { "t": "A gift, handed over." },
+        { "t": "A pause: open it now, in front of them, or later, alone?" },
+        { "t": "What's actually being weighed in that pause?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "gift-07",
+      "lines": [
+        { "t": "A gift reveals the giver doesn't know you as well as you thought." },
+        { "t": "You thank them anyway, completely sincerely." },
+        { "t": "Both true at once.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "gift-08",
+      "lines": [
+        { "t": "A broken gift, kept anyway, doing nothing." },
+        { "t": "Not for what it does." },
+        { "t": "For who gave it.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "gift-09",
+      "lines": [
+        { "t": "A gift you never reciprocated in kind." },
+        { "t": "A specific, small guilt, still there, years later." },
+        { "t": "What would actually settle it?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "gift-10",
+      "lines": [
+        { "t": "Giving anonymously, no credit attached." },
+        { "t": "A specific satisfaction, oddly clean." },
+        { "t": "What was the credit usually for?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-01",
+      "lines": [
+        { "t": "A goodbye, rehearsed in your head beforehand." },
+        { "t": "The real one goes nothing like it." },
+        { "t": "What was the rehearsal actually for?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-02",
+      "lines": [
+        { "t": "Waving at a car pulling away." },
+        { "t": "You keep waving long after they could still see you." },
+        { "t": "Who was that last wave actually for?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "goodbye-03",
+      "lines": [
+        { "t": "A goodbye you know is temporary." },
+        { "t": "A goodbye you're not sure about." },
+        { "t": "Notice these ache in completely different places.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-04",
+      "lines": [
+        { "t": "You leave a place for the last time." },
+        { "t": "You don't know yet that it's the last time." },
+        { "t": "Some goodbyes only become goodbyes afterward.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-05",
+      "lines": [
+        { "t": "A long hug, going on past comfortable." },
+        { "t": "Neither person lets go first." },
+        { "t": "What's being decided in that extra second?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-06",
+      "lines": [
+        { "t": "A plane takes off." },
+        { "t": "You stay at the window after it's out of sight." },
+        { "t": "What are you still looking at?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-07",
+      "lines": [
+        { "t": "A goodbye said quickly, to avoid crying." },
+        { "t": "Regretted afterward, for being too quick." },
+        { "t": "Which one was actually the honest one?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "goodbye-08",
+      "lines": [
+        { "t": "The drive home from dropping someone at the airport." },
+        { "t": "A specific silence in the car, different from ordinary quiet." },
+        { "t": "What's it made of?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "goodbye-09",
+      "lines": [
+        { "t": "Saying goodbye to a version of your life." },
+        { "t": "Not a person. A whole way things were." },
+        { "t": "Can that be grieved the same way?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "goodbye-10",
+      "lines": [
+        { "t": "An old goodbye, replayed." },
+        { "t": "One more sentence, wished for, never said." },
+        { "t": "Where is that sentence now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "start-01",
+      "lines": [
+        { "t": "A first day at something new." },
+        { "t": "Everyone else already seems to know where things are." },
+        { "t": "They didn't always.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "start-02",
+      "lines": [
+        { "t": "Finally starting something you'd been avoiding for months." },
+        { "t": "Terror and relief arrive in the same breath." },
+        { "t": "Which one is actually bigger?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "start-03",
+      "lines": [
+        { "t": "A blank calendar, in a new city." },
+        { "t": "Nothing has filled it yet." },
+        { "t": "Notice the specific shape of that emptiness.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "start-04",
+      "lines": [
+        { "t": "The first quiet minute in a home that's finally, fully yours." },
+        { "t": "Nobody else's name is on anything in the room." },
+        { "t": "What does that minute actually feel like?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "start-05",
+      "lines": [
+        { "t": "Starting over, after something ended badly." },
+        { "t": "A specific fragility to the first few steps." },
+        { "t": "Notice it without rushing past it.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "start-06",
+      "lines": [
+        { "t": "A new notebook, blank." },
+        { "t": "A reluctance to ruin the first page with anything ordinary." },
+        { "t": "What is the blank page actually worth, empty?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "start-07",
+      "lines": [
+        { "t": "The version of you from the day before a big change." },
+        { "t": "Already a stranger, one day later." },
+        { "t": "What exactly changed overnight?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "start-08",
+      "lines": [
+        { "t": "The first time doing something that will, without ceremony, become a habit." },
+        { "t": "You don't know that yet, doing it the first time." },
+        { "t": "Nothing marks the moment.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "start-09",
+      "lines": [
+        { "t": "Meeting someone who will matter enormously." },
+        { "t": "In the moment, no sense at all that they will." },
+        { "t": "What would it be like to know?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "start-10",
+      "lines": [
+        { "t": "The night before something that will change everything." },
+        { "t": "It's just an ordinary quiet night, from the inside." },
+        { "t": "It doesn't know yet what tomorrow is.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "ordinary-01",
+      "lines": [
+        { "t": "The same dishes, washed for the ten-thousandth time." },
+        { "t": "The mind is entirely elsewhere." },
+        { "t": "Who's washing them, then?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "ordinary-02",
+      "lines": [
+        { "t": "Folding laundry." },
+        { "t": "A small satisfaction, in a task with genuinely nothing at stake." },
+        { "t": "What is the satisfaction actually about?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "ordinary-03",
+      "lines": [
+        { "t": "A Tuesday with absolutely nothing on it." },
+        { "t": "A specific comfort in that." },
+        { "t": "Easy to miss if you don't look for it.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "ordinary-04",
+      "lines": [
+        { "t": "An ordinary errand, done a thousand times without noticing." },
+        { "t": "Pay full attention to it once." },
+        { "t": "Notice how strange \"ordinary\" gets under that much attention.", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "ordinary-05",
+      "lines": [
+        { "t": "Most of a life is unremarkable days." },
+        { "t": "Look at one, on purpose, right now." },
+        { "t": "This one.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "ordinary-06",
+      "lines": [
+        { "t": "Making the bed." },
+        { "t": "A completely reversible act, undone again by nightfall." },
+        { "t": "Done anyway. Why?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "ordinary-07",
+      "lines": [
+        { "t": "The walk to get the mail." },
+        { "t": "Done thousands of times." },
+        { "t": "The light has never once been exactly the same.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "ordinary-08",
+      "lines": [
+        { "t": "Waiting for toast." },
+        { "t": "Four minutes, nowhere else to be, nothing to check." },
+        { "t": "How rare is that, actually?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "ordinary-09",
+      "lines": [
+        { "t": "Taking out the trash." },
+        { "t": "No witnesses, no reward, no one keeping score." },
+        { "t": "Done anyway.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "ordinary-10",
+      "lines": [
+        { "t": "A task with a clear, small, achievable end." },
+        { "t": "A specific pleasure in that, bigger than the task deserves." },
+        { "t": "What's the pleasure actually about?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-01",
+      "lines": [
+        { "t": "You expect a hard conversation." },
+        { "t": "It turns out easy." },
+        { "t": "Where did the dread go?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-02",
+      "lines": [
+        { "t": "A highly anticipated event, finally arriving." },
+        { "t": "A strange flatness, right when it lands." },
+        { "t": "Where did the anticipation actually go?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "expect-03",
+      "lines": [
+        { "t": "You expect to feel one specific way at a milestone." },
+        { "t": "You feel something else entirely." },
+        { "t": "Which feeling was actually yours?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "expect-04",
+      "lines": [
+        { "t": "A low-key day, expected to be forgettable." },
+        { "t": "Years later, it's one you remember clearly." },
+        { "t": "It gave no warning at the time.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-05",
+      "lines": [
+        { "t": "You expect nothing from a plain afternoon." },
+        { "t": "It becomes the best part of the week." },
+        { "t": "It didn't announce itself either.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-06",
+      "lines": [
+        { "t": "How you imagined meeting someone, for years." },
+        { "t": "How it actually went." },
+        { "t": "Notice the gap without judging either version.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-07",
+      "lines": [
+        { "t": "You expect to hate something." },
+        { "t": "You don't." },
+        { "t": "What was the expecting actually based on?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-08",
+      "lines": [
+        { "t": "A warned-about disaster." },
+        { "t": "It never arrives." },
+        { "t": "Where did all that bracing go?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-09",
+      "lines": [
+        { "t": "You expect gratitude for something you did." },
+        { "t": "You receive indifference instead." },
+        { "t": "Notice the gap land, specifically, somewhere in the body.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "expect-10",
+      "lines": [
+        { "t": "A plan goes exactly as expected, for once." },
+        { "t": "A strange disorientation follows, oddly." },
+        { "t": "Why does even good predictability feel unfamiliar?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "doubt-01",
+      "lines": [
+        { "t": "A decision, made confidently an hour ago." },
+        { "t": "Completely uncertain now." },
+        { "t": "Which hour actually had it right?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "doubt-02",
+      "lines": [
+        { "t": "A memory you were sure of." },
+        { "t": "Someone else recalls it differently, confidently." },
+        { "t": "Which version is actually known, and by what?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "doubt-03",
+      "lines": [
+        { "t": "You react to something." },
+        { "t": "A quiet doubt turns toward the reaction itself." },
+        { "t": "Was that reaction actually yours?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "doubt-04",
+      "lines": [
+        { "t": "Doubt arrives right before doing something brave." },
+        { "t": "It's never there right after." },
+        { "t": "What was it actually protecting against?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "doubt-05",
+      "lines": [
+        { "t": "Your own old writing, reread." },
+        { "t": "You doubt the person who wrote it was really you." },
+        { "t": "Was it?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "doubt-06",
+      "lines": [
+        { "t": "Someone compliments your work." },
+        { "t": "An internal case against it starts building immediately." },
+        { "t": "Who's building that case?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "doubt-07",
+      "lines": [
+        { "t": "A choice, doubted, only once it can no longer be changed." },
+        { "t": "Not a moment before." },
+        { "t": "What's the timing actually protecting?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "doubt-08",
+      "lines": [
+        { "t": "Healthy doubt asks a real question." },
+        { "t": "The reflex to distrust anything good doesn't ask anything." },
+        { "t": "Which one is running right now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "doubt-09",
+      "lines": [
+        { "t": "An otherwise good moment in a relationship." },
+        { "t": "A doubt arrives anyway, unexplained." },
+        { "t": "Where did it come from?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "doubt-10",
+      "lines": [
+        { "t": "A decision, trusted more the less it's examined." },
+        { "t": "You look anyway." },
+        { "t": "What does the examining actually find?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "animal-01",
+      "lines": [
+        { "t": "A wild bird lands close enough to almost touch." },
+        { "t": "Then it's gone." },
+        { "t": "For that one second, nothing was decided about it.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-02",
+      "lines": [
+        { "t": "Eye contact with an animal in the woods." },
+        { "t": "Both of you decide something, at the exact same instant." },
+        { "t": "Neither of you used words to decide it.", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "animal-03",
+      "lines": [
+        { "t": "Ants build, a structure collapses, they rebuild." },
+        { "t": "No visible frustration at starting over." },
+        { "t": "What would that be like?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-04",
+      "lines": [
+        { "t": "A deer freezes." },
+        { "t": "Then it decides, faster than thought could have managed." },
+        { "t": "What decided?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-05",
+      "lines": [
+        { "t": "Whale sounds, recorded, played back." },
+        { "t": "Older than any human language." },
+        { "t": "Something in you still responds to it.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-06",
+      "lines": [
+        { "t": "An animal, completely absorbed in right now." },
+        { "t": "No visible dread of tomorrow." },
+        { "t": "What would that be like, for a whole day?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "animal-07",
+      "lines": [
+        { "t": "A spider, relocated instead of killed." },
+        { "t": "A small mercy, with no audience at all." },
+        { "t": "Who was it for?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-08",
+      "lines": [
+        { "t": "A predator and prey scene, on a screen." },
+        { "t": "You can't look away." },
+        { "t": "What's holding your eyes there?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-09",
+      "lines": [
+        { "t": "An animal's grief, over a companion." },
+        { "t": "Visible, unmistakable, completely undecorated." },
+        { "t": "No story added to it. Just the grief.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "animal-10",
+      "lines": [
+        { "t": "A swarm, moving as one shape." },
+        { "t": "No leader anyone can point to." },
+        { "t": "Who's deciding the shape?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "distance-01",
+      "lines": [
+        { "t": "A friendship survives years and thousands of miles." },
+        { "t": "It picks back up exactly where it left off." },
+        { "t": "What actually held it, across all that distance?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "distance-02",
+      "lines": [
+        { "t": "A long-distance call ends." },
+        { "t": "A specific ache arrives right as the screen goes dark." },
+        { "t": "Find exactly where it sits.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "distance-03",
+      "lines": [
+        { "t": "You miss a place more than any person who's actually in it." },
+        { "t": "The place doesn't miss anyone." },
+        { "t": "Can it still be missed the same way a person is?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "distance-04",
+      "lines": [
+        { "t": "A letter, weeks in transit." },
+        { "t": "Read in seconds." },
+        { "t": "All that time, compressed into one moment of reading.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "distance-05",
+      "lines": [
+        { "t": "A time zone converter, checked." },
+        { "t": "Doing math just to say goodnight to one person." },
+        { "t": "What is the math actually measuring?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "distance-06",
+      "lines": [
+        { "t": "A friendship fades from distance alone." },
+        { "t": "No fight, no ending, just space." },
+        { "t": "Is that a kind of grief too?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "distance-07",
+      "lines": [
+        { "t": "A childhood friend, now a stranger's whole life away." },
+        { "t": "Still occupying the exact same memory, unchanged." },
+        { "t": "Two different people now. One frozen memory.", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "distance-08",
+      "lines": [
+        { "t": "Distance, measured in flights instead of miles." },
+        { "t": "Once you've moved enough times, that's just how it's counted." },
+        { "t": "When did that shift happen?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "distance-09",
+      "lines": [
+        { "t": "A shared joke, a decade old, from a decade apart." },
+        { "t": "Still funny, on first contact." },
+        { "t": "What kept it that fresh?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "distance-10",
+      "lines": [
+        { "t": "Standing somewhere, doing the math." },
+        { "t": "How far, exactly, is someone you love, right now?" },
+        { "t": "This second.", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "crying-01",
+      "lines": [
+        { "t": "Tears arrive." },
+        { "t": "The feeling that caused them hasn't been identified yet." },
+        { "t": "Which one came first?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "crying-02",
+      "lines": [
+        { "t": "A commercial, and you're crying." },
+        { "t": "Embarrassed, and unable to stop anyway." },
+        { "t": "What did the embarrassment fail to override?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "crying-03",
+      "lines": [
+        { "t": "A cry, held back for days, finally happens." },
+        { "t": "A specific relief follows." },
+        { "t": "Physical, immediate.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "crying-04",
+      "lines": [
+        { "t": "Crying from pure frustration, not sadness." },
+        { "t": "Notice how different it actually feels." },
+        { "t": "Same tears. Different weather system.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "crying-05",
+      "lines": [
+        { "t": "You think you should cry." },
+        { "t": "Nothing comes." },
+        { "t": "A specific worry follows that absence.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "crying-06",
+      "lines": [
+        { "t": "Happy tears." },
+        { "t": "The body uses sad-tears' machinery for a good reason." },
+        { "t": "Does it actually know the difference?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "crying-07",
+      "lines": [
+        { "t": "A stranger's tears, in a story you don't fully know." },
+        { "t": "Yours arrive too, uninvited." },
+        { "t": "What crossed over?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "crying-08",
+      "lines": [
+        { "t": "Crying somewhere you have to instantly compose yourself." },
+        { "t": "The recovery is fast, almost mechanical." },
+        { "t": "What's doing the composing, that fast?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "crying-09",
+      "lines": [
+        { "t": "A good cry." },
+        { "t": "Nothing about the actual situation changes." },
+        { "t": "It helps anyway. How?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "crying-10",
+      "lines": [
+        { "t": "The throat tightens." },
+        { "t": "Before any tears, before any named feeling." },
+        { "t": "The body's early warning, ahead of the mind's.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "singing-01",
+      "lines": [
+        { "t": "Singing in the shower." },
+        { "t": "A voice you'd never use in front of anyone." },
+        { "t": "Which one is the real voice?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "singing-02",
+      "lines": [
+        { "t": "A song you'd have sworn you knew completely." },
+        { "t": "The words won't come." },
+        { "t": "Where were they a minute ago?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "singing-03",
+      "lines": [
+        { "t": "A lullaby, sung, without ever being taught the tune." },
+        { "t": "Absorbed somewhere, at some point, without trying." },
+        { "t": "Where was it kept until now?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "singing-04",
+      "lines": [
+        { "t": "Singing along in a car." },
+        { "t": "One note lands that you can't hit any other time." },
+        { "t": "What let it through, just then?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "singing-05",
+      "lines": [
+        { "t": "A crowd sings together, off-key, all of them." },
+        { "t": "Somehow more moving than any one good voice alone." },
+        { "t": "What's actually moving about it?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "singing-06",
+      "lines": [
+        { "t": "Humming to a baby." },
+        { "t": "A song with no name, invented in the moment, never repeated." },
+        { "t": "Where did that tune come from?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "singing-07",
+      "lines": [
+        { "t": "Singing solo, in front of even one other person." },
+        { "t": "A specific vulnerability, bigger than the song itself." },
+        { "t": "What's actually being handed over?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "singing-08",
+      "lines": [
+        { "t": "A song, sung at a funeral." },
+        { "t": "Voices crack." },
+        { "t": "Sung anyway, all the way through.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "singing-09",
+      "lines": [
+        { "t": "\"Happy Birthday,\" sung by a group." },
+        { "t": "The tempo nobody agrees on, every single time." },
+        { "t": "Notice the specific awkwardness, familiar to everyone.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "singing-10",
+      "lines": [
+        { "t": "Your own singing voice, on a recording." },
+        { "t": "Unrecognizable to you." },
+        { "t": "Everyone else has heard exactly this the whole time.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "morning-01",
+      "lines": [
+        { "t": "The first few seconds awake." },
+        { "t": "Before the day's problems reload." },
+        { "t": "What's present in those seconds, before the reload?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "morning-02",
+      "lines": [
+        { "t": "Waking before the alarm." },
+        { "t": "Right in the good part of a dream." },
+        { "t": "What woke you exactly then?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "morning-03",
+      "lines": [
+        { "t": "Morning light has a quality afternoon light can't fake." },
+        { "t": "Same sun." },
+        { "t": "What's actually different?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "morning-04",
+      "lines": [
+        { "t": "A slow morning, nowhere to be." },
+        { "t": "Rare enough that it's worth noticing when it happens." },
+        { "t": "Notice it now.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "morning-05",
+      "lines": [
+        { "t": "The first coffee." },
+        { "t": "The lift arrives before the caffeine could physically have kicked in." },
+        { "t": "What lifted, then?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "morning-06",
+      "lines": [
+        { "t": "Waking up already knowing today is a hard day." },
+        { "t": "Before you've even remembered why." },
+        { "t": "What already knew?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "morning-07",
+      "lines": [
+        { "t": "One small piece of the morning routine, skipped." },
+        { "t": "The whole day feels unmoored, oddly." },
+        { "t": "What was that piece actually anchoring?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "morning-08",
+      "lines": [
+        { "t": "The first one awake in a house." },
+        { "t": "A particular silence, different from any other time of day." },
+        { "t": "What's different about it?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "morning-09",
+      "lines": [
+        { "t": "Snoozing an alarm." },
+        { "t": "Promising the next nine minutes will be different." },
+        { "t": "They rarely are. Notice the promise anyway.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "morning-10",
+      "lines": [
+        { "t": "Waking up in a good mood, for no reason you can find." },
+        { "t": "No cause required." },
+        { "t": "It's just there.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "evening-01",
+      "lines": [
+        { "t": "The front door closes at the end of a long day." },
+        { "t": "A specific relief arrives with the click of the latch." },
+        { "t": "What exactly relaxed?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-02",
+      "lines": [
+        { "t": "Changing out of daytime clothes." },
+        { "t": "The day visibly ends along with it." },
+        { "t": "The clothes didn't do that on their own.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "evening-03",
+      "lines": [
+        { "t": "An evening walk, once the day's heat finally breaks." },
+        { "t": "Notice the exact moment the air changes." },
+        { "t": "Something in the body changes with it.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "evening-04",
+      "lines": [
+        { "t": "Tiredness arrives exactly the moment you finally sit down." },
+        { "t": "Not a minute before." },
+        { "t": "It was waiting for permission.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-05",
+      "lines": [
+        { "t": "A shared dinner, comfortable silence." },
+        { "t": "Nothing needs to be said." },
+        { "t": "Notice how full that silence actually is.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-06",
+      "lines": [
+        { "t": "The last light of day." },
+        { "t": "Everyone with somewhere to be hurries straight through it." },
+        { "t": "It doesn't ask to be hurried through.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-07",
+      "lines": [
+        { "t": "Lamps, turned on one by one as the room gets dark." },
+        { "t": "Nobody decided exactly when to start." },
+        { "t": "It just happened, gradually, unnoticed.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-08",
+      "lines": [
+        { "t": "A Sunday evening." },
+        { "t": "A specific melancholy, bigger than Monday actually deserves." },
+        { "t": "What's the melancholy actually about?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-09",
+      "lines": [
+        { "t": "Staying up too late, for no particular reason." },
+        { "t": "Reluctant to let the day end." },
+        { "t": "What is the day being held onto for?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "evening-10",
+      "lines": [
+        { "t": "A house, settling into its night sounds." },
+        { "t": "The same walls, a completely different set of creaks." },
+        { "t": "What changed, the house or the listening?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "rain-01",
+      "lines": [
+        { "t": "Rain on a window." },
+        { "t": "Watched with no particular thought, for far longer than intended." },
+        { "t": "What was actually being watched?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-02",
+      "lines": [
+        { "t": "A storm outside." },
+        { "t": "A specific comfort in being indoors for it." },
+        { "t": "The storm didn't get quieter. Something else did.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-03",
+      "lines": [
+        { "t": "Caught in rain, unexpectedly." },
+        { "t": "At some point, trying to stay dry is simply given up." },
+        { "t": "Notice the exact moment that happens.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-04",
+      "lines": [
+        { "t": "Rain on a roof." },
+        { "t": "A sound that means \"home\" unlike almost any other sound." },
+        { "t": "Where did it earn that meaning?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-05",
+      "lines": [
+        { "t": "Rain cancels a plan." },
+        { "t": "A specific relief arrives with the cancellation." },
+        { "t": "What was actually being avoided?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-06",
+      "lines": [
+        { "t": "A puddle, on a sidewalk." },
+        { "t": "An old urge to step in it returns, uninvited, from decades ago." },
+        { "t": "Where had it been kept until now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "rain-07",
+      "lines": [
+        { "t": "The smell right as rain stops." },
+        { "t": "Different from the smell right before it starts." },
+        { "t": "Two different smells, one event.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "rain-08",
+      "lines": [
+        { "t": "Driving in heavy rain." },
+        { "t": "The whole world narrows to two wiper-blades' width." },
+        { "t": "Notice how completely that narrows your attention too.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-09",
+      "lines": [
+        { "t": "A single drop, finding its way through a window left cracked." },
+        { "t": "It found the one gap in the whole house." },
+        { "t": "Notice the specific, small surprise of it landing.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "rain-10",
+      "lines": [
+        { "t": "Rain, during a genuinely happy moment." },
+        { "t": "It refuses to ruin it, the way it was supposed to." },
+        { "t": "Who decided rain was supposed to ruin anything?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "faith-01",
+      "lines": [
+        { "t": "Trusting a plan will work." },
+        { "t": "Zero evidence yet that it will." },
+        { "t": "What is the trusting actually standing on?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "faith-02",
+      "lines": [
+        { "t": "A friend's faith in you." },
+        { "t": "For a while, it outlasts your own." },
+        { "t": "What is it made of, that yours isn't?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "faith-03",
+      "lines": [
+        { "t": "A lost wallet, left for a stranger to find." },
+        { "t": "Most of the time, it comes back." },
+        { "t": "Notice what that trust is actually resting on.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "faith-04",
+      "lines": [
+        { "t": "A seed, planted." },
+        { "t": "No certainty at all about the harvest." },
+        { "t": "Planted anyway.", "hold": 2.2 }
+      ]
+    },
+    {
+      "id": "faith-05",
+      "lines": [
+        { "t": "A hard year." },
+        { "t": "Faith that it will end, held with no actual data to support it." },
+        { "t": "Where does that faith come from?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "faith-06",
+      "lines": [
+        { "t": "Faith in something, lost slowly." },
+        { "t": "No single day you could name it left on." },
+        { "t": "It was just gone by the time you checked.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "faith-07",
+      "lines": [
+        { "t": "Faith in your own hands to catch you." },
+        { "t": "Tested rarely." },
+        { "t": "Confirmed, every single time it's been tested.", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "faith-08",
+      "lines": [
+        { "t": "A promise, kept." },
+        { "t": "Long after the person it was made to has forgotten it entirely." },
+        { "t": "Who is the keeping actually for now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "faith-09",
+      "lines": [
+        { "t": "A child's faith that tomorrow will be fine." },
+        { "t": "Not negotiated with any evidence at all." },
+        { "t": "When did yours start needing evidence?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "faith-10",
+      "lines": [
+        { "t": "Faith, lost, then returning." },
+        { "t": "Quieter, the second time." },
+        { "t": "What changed about how it holds now?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "skill-01",
+      "lines": [
+        { "t": "A skill, practiced for years." },
+        { "t": "The thinking has left it entirely." },
+        { "t": "Who's doing it now, if not the thinking?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "skill-02",
+      "lines": [
+        { "t": "A plateau, in learning something." },
+        { "t": "Practice stops feeling like progress." },
+        { "t": "Is it actually not progress, or does progress just feel different now?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "skill-03",
+      "lines": [
+        { "t": "Teaching a skill you're good at." },
+        { "t": "You can't explain what your hands just did." },
+        { "t": "Where does that knowledge actually live?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "skill-04",
+      "lines": [
+        { "t": "A beginner's clumsy first attempt at something you're skilled at now." },
+        { "t": "You were exactly that clumsy once." },
+        { "t": "Can you actually remember it?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "skill-05",
+      "lines": [
+        { "t": "A skill, unused for years." },
+        { "t": "It's quietly gone soft, noticed only when it's needed again." },
+        { "t": "It wasn't maintained on purpose either.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "skill-06",
+      "lines": [
+        { "t": "A skill crosses from effortful into automatic." },
+        { "t": "There's no single day that happens on." },
+        { "t": "Try to find it anyway.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "skill-07",
+      "lines": [
+        { "t": "Two skilled hands do in seconds what took you an hour to learn." },
+        { "t": "The hour didn't disappear." },
+        { "t": "It's still in there somewhere, compressed.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "skill-08",
+      "lines": [
+        { "t": "A skill, passed down, imperfectly, one generation to the next." },
+        { "t": "Something is always lost and something is always added." },
+        { "t": "What did you get that they didn't have?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "skill-09",
+      "lines": [
+        { "t": "Unlearning a bad habit inside a skill." },
+        { "t": "Harder than learning the skill was in the first place." },
+        { "t": "Why is undoing harder than doing?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "skill-10",
+      "lines": [
+        { "t": "A skill, quietly mastered." },
+        { "t": "Nobody around you happens to notice." },
+        { "t": "A specific pride, with no audience at all.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-01",
+      "lines": [
+        { "t": "An argument about the dishes." },
+        { "t": "It isn't really about the dishes." },
+        { "t": "What is it actually about?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-02",
+      "lines": [
+        { "t": "An argument, in progress." },
+        { "t": "One exact moment it tips from disagreement into something else." },
+        { "t": "Find that moment.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-03",
+      "lines": [
+        { "t": "You win an argument." },
+        { "t": "You feel worse than you would have losing one." },
+        { "t": "What did winning actually cost?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "argument-04",
+      "lines": [
+        { "t": "An argument, over." },
+        { "t": "Alone, hours later, you rehearse the rest of it anyway." },
+        { "t": "Who is it being argued to, this time?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "argument-05",
+      "lines": [
+        { "t": "An argument, ending in laughter." },
+        { "t": "Nobody can quite say how it got there." },
+        { "t": "Something shifted, uninstructed.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-06",
+      "lines": [
+        { "t": "Right after an argument." },
+        { "t": "A silence, louder than the argument itself was." },
+        { "t": "What's it full of?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-07",
+      "lines": [
+        { "t": "An argument you didn't start." },
+        { "t": "You apologize first anyway." },
+        { "t": "What made that decision?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-08",
+      "lines": [
+        { "t": "A new argument, unrelated to an old one." },
+        { "t": "The old one resurfaces inside it anyway, somehow the same." },
+        { "t": "What connects them?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "argument-09",
+      "lines": [
+        { "t": "Two people arguing." },
+        { "t": "Both completely right, about two different things." },
+        { "t": "Neither one is actually wrong.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "argument-10",
+      "lines": [
+        { "t": "An argument finally lands on the real thing underneath it." },
+        { "t": "A specific relief arrives, even mid-argument." },
+        { "t": "Relief, in the middle of a fight. Notice that.", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "quiet-01",
+      "lines": [
+        { "t": "A library's quiet." },
+        { "t": "A different texture from an empty house's quiet." },
+        { "t": "Both are silent. Neither is the same.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "quiet-02",
+      "lines": [
+        { "t": "A machine switches off." },
+        { "t": "You didn't notice it was running until the quiet after." },
+        { "t": "What else is running right now, unnoticed?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "quiet-03",
+      "lines": [
+        { "t": "A quiet, held between two people." },
+        { "t": "Neither one needs to fill it." },
+        { "t": "Notice how rare that actually is.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "quiet-04",
+      "lines": [
+        { "t": "The first night a house is truly empty of who used to fill it." },
+        { "t": "An unfamiliar quiet, not the ordinary kind." },
+        { "t": "What's different about it?", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "quiet-05",
+      "lines": [
+        { "t": "Noise-canceling headphones, switched on." },
+        { "t": "A hum disappears that you didn't know was there." },
+        { "t": "What else might be running under everything, unnoticed?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "quiet-06",
+      "lines": [
+        { "t": "The quiet right before an audience claps." },
+        { "t": "Everyone holding the same second at once." },
+        { "t": "What's in that shared second?", "hold": 2.8 }
+      ]
+    },
+    {
+      "id": "quiet-07",
+      "lines": [
+        { "t": "A hospital hallway's quiet." },
+        { "t": "Unlike quiet anywhere else." },
+        { "t": "What's it made of?", "hold": 2.4 }
+      ]
+    },
+    {
+      "id": "quiet-08",
+      "lines": [
+        { "t": "A quiet, built on purpose." },
+        { "t": "A door closed. A phone turned off." },
+        { "t": "Notice what's still there once the noise is removed.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "quiet-09",
+      "lines": [
+        { "t": "Snowfall." },
+        { "t": "A whole street muffled at once, instantly." },
+        { "t": "The street didn't get quieter. The snow did something else.", "hold": 2.6 }
+      ]
+    },
+    {
+      "id": "quiet-10",
+      "lines": [
+        { "t": "Quiet, mistaken for absence." },
+        { "t": "It's not absence." },
+        { "t": "It's just quiet.", "hold": 2.4 }
+      ]
     }
   ]
 }
