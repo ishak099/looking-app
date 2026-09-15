@@ -41,6 +41,16 @@ before any build can install on a physical device outside Expo Go.
 
 - All four screens (Opening, Looking, After/resting, Settings), matching the
   spec's layout, palette (`#1E2A2C` / `#E8E2D6` / `#8A9694`), and serif type.
+- Real app icon and adaptive-icon assets (`assets/icon.png`, `splash-icon.png`,
+  `android-icon-*.png`, `favicon.png`) — a single centered dot in the app's
+  own ink color on its own field color, echoing "one thing to look at."
+  Generated as pixel-exact PNGs from HTML sources in `scripts/icons/` via
+  headless Chrome (`scripts/icons/generate.sh`) at each platform's exact
+  required dimensions and alpha-channel rules — no alpha for
+  `icon.png`/`favicon.png`/`android-icon-background.png` (iOS rejects an
+  icon with any alpha channel), alpha for the foreground/monochrome/splash
+  layers. Re-run the script and commit the regenerated PNGs if the mark
+  ever needs to change.
 - The exact pacing formula from the prototype (`src/lib/pacing.ts`), including
   the 0.85x reduced-motion multiplier and per-line `hold` overrides.
 - Tap-to-advance that never skips a line, no progress indicator, no chrome.
@@ -74,6 +84,12 @@ publishes `dist/` to GitHub Pages on every push to `master`. This is a
 device pacing feel, only exist on iOS/Android. `app.json`'s
 `expo.experiments.baseUrl` is hardcoded to `/looking-app` to match this
 repo's Pages path; update it if the repo is ever renamed or moved.
+
+`public/privacy.html` is copied verbatim into `dist/` by `expo export`
+(Expo's built-in public-folder convention — anything in `public/` ships
+as-is, no bundling). It's live at
+[ishak099.github.io/looking-app/privacy.html](https://ishak099.github.io/looking-app/privacy.html)
+and is the privacy policy URL both app stores require at submission.
 
 ## Content
 
@@ -110,15 +126,15 @@ should chase.
 
 ## Known gaps before this should ship to a store
 
-1. **App icon / splash / Android notification icon.** Placeholder Expo
-   template assets are still in `assets/`. Needs real 1024x1024 icon art
-   before a store submission.
-2. **EAS project — Android done, iOS not started.** Linked to
+1. **EAS project — Android done, iOS not started.** Linked to
    `@ishak099/looking-app` on expo.dev; `eas build --platform android
    --profile preview` produces an installable APK (`eas.json`'s `preview`
    profile). iOS needs an Apple Developer Program membership ($99/yr) plus
    `eas device:create` to register a test device before a build can install
    outside Expo Go — not set up yet.
+2. **Google Play Console account** ($25, one time) — not created yet. This
+   is the one step that has to be done by hand, with payment; see the
+   Build Log's publishing section for the exact checklist.
 3. **Two-week dogfood + TestFlight/internal track**, per the spec's build
    order — pacing that feels right on a laptop screen often doesn't on a
    phone in your hand. At 1,899 pointers, this is also the first real chance
