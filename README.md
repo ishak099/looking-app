@@ -62,7 +62,7 @@ before any build can install on a physical device outside Expo Go.
   `addNotificationResponseReceivedListener` (warm).
 - One shared shuffle-walk queue (`storage.getPointerQueue`/`setPointerQueue`)
   for every draw — in-app taps and scheduled notifications alike — so no
-  pointer repeats until all 1,404 have been shown once, regardless of which
+  pointer repeats until all 1,899 have been shown once, regardless of which
   surface showed them, without the app tracking or surfacing any view
   history.
 
@@ -77,24 +77,24 @@ repo's Pages path; update it if the repo is ever renamed or moved.
 
 ## Content
 
-`src/data/pointers.json` holds 1,404 pointers: the 14 seed pointers from the
-spec, verbatim, plus 1,390 more written to the same voice rules (spec §9) —
+`src/data/pointers.json` holds 1,899 pointers: the 14 seed pointers from the
+spec, verbatim, plus 1,885 more written to the same voice rules (spec §9) —
 verbs not nouns, no banned vocabulary (awareness, consciousness, presence,
 the witness, energy, journey, and the rest of the list), concrete triggers
 drawn from the body, senses, emotion, waiting, memory, work, relationships,
 boundary/connectedness, and the practice itself, questions left open, no
-promises. Spanning 165 distinct themes so the shuffle-walk queue
+promises. Spanning 207 distinct themes so the shuffle-walk queue
 (`src/lib/queue.ts`) has real variety before it repeats.
 
-About 470 of these draw on the same territory Krishnamurti-style self-
+About 940 of these draw on the same territory Krishnamurti-style self-
 inquiry covers — conditioning, the image carried of a person versus who's
 actually there, psychological security, the observed/observer split (never
 named that way — "observer" is banned vocabulary, so it's rendered as "the
-one feeling it" or "something watches"), thought as always old, the gap
-between a stimulus and a reaction. No teacher or tradition is ever named in
-the pointer text itself; the spec's own anti-doctrine rule ("the app
-asserts nothing") applies to this material exactly as much as to the
-original 14.
+one feeling it" or "something watches"), thought as always old, fragmented
+values, group-mind, comparison as friction, and the gap between a stimulus
+and a reaction. No teacher or tradition is ever named in the pointer text
+itself; the spec's own anti-doctrine rule ("the app asserts nothing")
+applies to this material exactly as much as to the original 14.
 
 `scripts/validate-pointers.mjs` (`node scripts/validate-pointers.mjs`) checks
 every pointer for banned vocabulary (word-boundary matched, so "negotiated"
@@ -121,7 +121,7 @@ should chase.
    outside Expo Go — not set up yet.
 3. **Two-week dogfood + TestFlight/internal track**, per the spec's build
    order — pacing that feels right on a laptop screen often doesn't on a
-   phone in your hand. At 1,404 pointers, this is also the first real chance
+   phone in your hand. At 1,899 pointers, this is also the first real chance
    to catch any that read flat or samey once they show up days apart instead
    of back to back.
 4. **Pricing** (one-time unlock / IAP pack) isn't wired up — no payment
@@ -134,7 +134,7 @@ App.tsx                    root state machine (start/looking/resting/settings)
 src/
   theme.ts                 colors, serif font, clamp()-style font sizing
   types.ts
-  data/pointers.json        1,404 pointers (14 seed + 1,390 new)
+  data/pointers.json        1,899 pointers (14 seed + 1,885 new)
   lib/
     pacing.ts               ported reveal-timing formula
     storage.ts              AsyncStorage wrapper (the entire on-device state)
