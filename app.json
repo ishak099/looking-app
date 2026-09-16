@@ -10,11 +10,11 @@
     "primaryColor": "#1E2A2C",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.looking.app",
+      "bundleIdentifier": "com.kashi1729.looking",
       "backgroundColor": "#1E2A2C"
     },
     "android": {
-      "package": "com.looking.app",
+      "package": "com.kashi1729.looking",
       "adaptiveIcon": {
         "backgroundColor": "#1E2A2C",
         "foregroundImage": "./assets/android-icon-foreground.png",
